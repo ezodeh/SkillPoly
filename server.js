@@ -1,7 +1,7 @@
 const http = require('http');
 const { WebSocketServer } = require('ws');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 const rooms = {};
 
 const server = http.createServer((req, res) => {
